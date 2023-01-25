@@ -1,0 +1,301 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0;    
+}
+
+header{
+    position: fixed;
+    background:#f58bb9;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+  }
+ 
+
+#myTabContent 
+{
+position: relative;
+width: 100%;
+height: 520px;
+}
+
+.register {
+    background: -webkit-linear-gradient(left, #F00DBE, #f58bb9);
+    margin-top: 3%;
+    padding: 3%;
+}
+
+.register-right {
+    background: #f8f9fa;
+    border-top-left-radius: 15% 50%;
+    border-bottom-left-radius: 15% 50%;
+} 
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 520px;
+    margin-top: 70px;
+    padding-top: 30px;
+    left: 0;
+    background: #f58bb9;
+}
+
+.sidebar .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+} 
+.sidebar h2 {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 20px; 
+} 
+.sidebar a{
+    color: white;
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    text-decoration: none;
+    padding-left: 35px;
+    box-sizing: border-box;
+
+    text-transform: uppercase;
+    font-size: 16px;
+    
+    
+}
+
+.sidebar a:hover{
+    background: #f853a0;
+
+}
+ .content{
+    background: url(/fundo.jpg.png) no-repeet;
+    background-size: cover;
+    height: 100vh;
+
+ }
+  
+ .user_card {
+    height: 400px;
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #e91477;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+}
+.brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background: #60a3bc;
+    padding: 10px;
+    text-align: center;
+}
+.brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.form_container {
+    margin-top: 100px;
+}
+.login_btn {
+    width: 100%;
+    background: #c0392b !important;
+    color: white !important;
+}
+.login_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.login_container {
+    padding: 0 2rem;
+}
+.input-group-text {
+    background: #c0392b !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #c0392b !important;
+}
+.form-row {
+    width: 20%;
+    height: 20vh;
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+}
+
+
+body{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    min-height: 40vh;
+    background:#e91477;
+}
+
+section{
+    
+    background:ffff;
+    padding: 30px 5px;
+    box-shadow: 5px 5px 15px;
+    max-width: 70vw;
+    
+}
+
+section h1{
+    padding: 40px 10px;
+    text-align: center;
+    
+}
+
+fieldset{
+   border: none;   
+}
+
+fieldset:nth-child(2){
+    
+        display: flex;
+ }
+ fieldset:nth-child(3){
+    display: flex;    
+}
+fieldset:nth-child(4){
+    display: flex;    
+}
+
+fieldset:nth-child(5){
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+           
+}
+
+.container input{
+    margin: 10px 10px;
+    width: 80px;
+    height: 25px;
+    border: none;
+    background:#ededed;
+    border-radius: 4px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 10px 0 10px;
+    
+
+}
+
+fieldset:nth-child(5){
+    display: flex;
+    width: 100%; 
+    margin-top: 20px;
+    padding: 0px 10px;
+           
+}
+.container{
+    position:relative ;
+    margin: 10px 10px;
+    width: calc(100% - 20px);
+    height: 70px;
+    border: none;
+    border-radius: 4px;
+    color: 333;
+    font-size: 18px;
+    font-family: 700;
+    
+}
+
+.container label{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color:black;
+    position: absolute;
+    line-height: 100px;
+    top: 10px;
+    left: 20px;
+    user-select: none;
+    pointer-events: none;
+    transition: 0.5s;
+
+}
+
+.container input:focus~label,
+.container input:valid~label{
+    left: 20px;
+    top:-10px;
+    color: #e91477;
+
+}
+
+#check{
+
+    font-size: 14px;   
+    text-transform: uppercase;
+}
+#check input{
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+#check label{
+    margin: auto 10px;
+    color: black;  
+    transition: 0.5s; 
+}
+#check input:checked~label,
+#check input:valid~label{
+     
+    color:#f58bb9;
+
+}
+
+
+button{
+    margin: 60px 0;
+    margin-left: 130px;
+    width: 35%;
+    height: 55px;
+    background:#f58bb9;
+    color: #ffff;
+    font-size:20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
